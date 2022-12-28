@@ -1,0 +1,9 @@
+    <!-- loop to get all the product in view  -->
+    {%for i in product%}
+    <h1>{{i.name}}</h1>
+    <p>Description :{{i.description}}</p>
+    <p>Price : {{i.price}}</p>
+    <button><a href="{%url 'product-update' i.id %}">EDIT</a></button>
+    <button><a href="{%url 'product-delete' i.id %}">DELETE</a></button>
+
+    {%endfor%}

@@ -1,0 +1,11 @@
+asgiref==3.6.0
+backports.zoneinfo==0.2.1
+cffi==1.15.1
+cryptography==38.0.4
+Django==4.1.4
+misaka==2.1.1
+mysqlclient @ file:///D:/Projects/Django/DjCrud/mysqlclient-1.4.6-cp38-cp38-win32.whl
+pycparser==2.21
+pyOpenSSL==22.1.0
+sqlparse==0.4.3
+tzdata==2022.7
