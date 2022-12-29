@@ -7,6 +7,9 @@ class Product(models.Model):
     description = models.TextField(max_length=250,null=True,blank=True)
     price = models.FloatField(default=0)
     
+    class Meta:
+        ordering =['name']
+
     def __str__(self):
         return self.name
 
